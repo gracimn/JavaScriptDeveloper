@@ -1,0 +1,48 @@
+/* Estilos para o botão do carrinho */
+.cart__button {
+  /* Tamanho da fonte */
+  font-size: 1.5rem;
+  /* Flexbox para centralizar conteúdo vertical e horizontalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Espaçamento interno */
+  padding: 5px;
+  /* Remover borda */
+  border: none;
+  /* Remover plano de fundo */
+  background: none;
+  /* Cursor ao passar por cima */
+  cursor: pointer;
+  /* Posicionamento relativo para o ícone de status */
+  position: relative;
+  /* Margem à esquerda */
+  margin-left: 20px;
+  /* Cor do texto */
+  color: #013158;
+}
+
+/* Estilos para o ícone de status (número de itens no carrinho) */
+.cart-status {
+  /* Cor de fundo */
+  background-color: red;
+  /* Tamanho */
+  width: 15px;
+  height: 15px;
+  /* Posicionamento absoluto em relação ao botão */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Cor do texto */
+  color: white;
+  /* Tamanho da fonte */
+  font-size: 11px;
+  /* Peso da fonte */
+  font-weight: 600;
+  /* Borda circular */
+  border-radius: 15px;
+  /* Flexbox para centralizar conteúdo vertical e horizontalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,41 @@
+/* Estilos para o contêiner do carrinho */
+.cart {
+  width: 100%; /* Define a largura máxima */
+  max-width: 330px; /* Define a largura máxima */
+  background-color: rgb(255, 255, 255); /* Define a cor de fundo */
+  height: 100vh; /* Define a altura para ocupar a tela inteira */
+  position: fixed; /* Fixa o contêiner na tela */
+  top: 0; /* Posiciona o contêiner no topo */
+  right: 0; /* Posiciona o contêiner à direita */
+  padding: 100px 20px 20px; /* Define o preenchimento interno */
+  display: flex; /* Utiliza o modelo de layout flexível */
+  flex-direction: column; /* Define a direção dos itens flexíveis */
+  justify-content: space-between; /* Distribui os itens uniformemente ao longo do eixo principal */
+  transform: translate(110%, 0); /* Aplica uma transformação de translação inicial */
+  transition: all 400ms ease; /* Define uma transição para todas as propriedades */
+  box-shadow: 0px 0px 10px rgba(36, 35, 35, 0.637);
+}
+
+/* Estilos para a lista de itens do carrinho */
+.cart-items {
+  flex-grow: 1; /* Faz com que a lista de itens ocupe o espaço restante */
+  overflow: auto; /* Adiciona uma barra de rolagem se necessário */
+}
+
+/* Estilos para o resumo do carrinho */
+.cart-resume {
+  font-size: 1.8rem; /* Define o tamanho da fonte */
+  font-weight: 500; /* Define o peso da fonte */
+  padding: 35px 0 15px; /* Define o preenchimento interno */
+  border-top: 1px solid #ddd; /* Adiciona uma borda superior */
+}
+
+/* Estilos para o último item da lista de itens do carrinho */
+.cart-items .cart-item:last-child {
+  border-bottom: none; /* Remove a borda inferior do último item */
+}
+
+/* Estilos quando o carrinho está ativo */
+.cart--active {
+  transform: translate(0, 0); /* Aplica uma transformação de translação quando o carrinho está ativo */
+}

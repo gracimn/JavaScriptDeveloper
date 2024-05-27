@@ -1,0 +1,97 @@
+/* Estilos para o cartão de produto */
+.product-card {
+  /* Largura total com uma largura máxima definida */
+  width: 100%;
+  max-width: 300px;
+  /* Cor de fundo */
+  background-color: rgb(255, 255, 255);
+  /* Layout de coluna para os elementos filhos */
+  display: flex;
+  flex-direction: column;
+  /* Cursor ao passar por cima */
+  cursor: pointer;
+  /* Margem automática nas laterais para centralizar */
+  margin: 0 auto;
+  /* Posição relativa para o botão de adicionar ao carrinho */
+  position: relative;
+}
+
+/* Estilos para a imagem do cartão */
+.card__image {
+  /* Largura total */
+  width: 100%;
+}
+
+/* Estilos para as informações do cartão */
+.card__infos {
+  /* Espaçamento interno */
+  padding: 20px;
+  /* Borda superior */
+  border-top: 1px solid #ffffff;
+}
+
+/* Estilos para o preço do cartão */
+.card__price {
+  /* Tamanho da fonte */
+  font-size: 30px;
+  /* Peso da fonte */
+  font-weight: 400;
+  /* Exibição como bloco */
+  display: block;
+  /* Espaçamento na parte inferior */
+  margin-bottom: 10px;
+}
+
+/* Estilos para o título do cartão */
+.card__title {
+  /* Tamanho da fonte */
+  font-size: 15px;
+  /* Cor do texto */
+  color: rgba(0, 0, 0, 0.5);
+  /* Altura da linha */
+  line-height: 1.5;
+  /* Peso da fonte */
+  font-weight: 500;
+}
+
+/* Estilos para o botão de adicionar ao carrinho */
+.button__add-cart {
+  /* Posição absoluta no canto superior direito */
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* Largura e altura fixas */
+  width: 45px;
+  height: 45px;
+  /* Margem */
+  margin: 12px 15px;
+  /* Cor do texto */
+  color: #0c5dd6;
+  /* Ocultar por padrão */
+  display: none;
+  /* Alinhamento */
+  align-items: center;
+  justify-content: center;
+  /* Remover borda */
+  border: none;
+  /* Borda circular */
+  border-radius: 50px;
+  /* Cor de fundo com transparência */
+  background-color: white;
+  /* Tamanho da fonte */
+  font-size: 1.5rem;
+  /* Cursor ao passar por cima */
+  cursor: pointer;
+}
+
+/* Mostrar o botão de adicionar ao carrinho quando o cartão é destacado */
+.product-card:hover {
+  /* Sombra ao passar por cima */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mostrar o botão de adicionar ao carrinho quando o cartão é destacado */
+.product-card:hover .button__add-cart {
+  /* Exibir o botão de adicionar ao carrinho */
+  display: flex;
+}

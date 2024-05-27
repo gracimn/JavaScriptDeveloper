@@ -1,0 +1,23 @@
+/* Estilos para o cabeçalho */
+.header {
+  /* Cor de fundo */
+  background-color: #7de5ff;
+  /* Fixar o cabeçalho no topo da página */
+  position: fixed;
+  /* Largura total */
+  width: 100%;
+  /* Z-index para controlar a sobreposição */
+  z-index: 1;
+}
+
+/* Estilos para os elementos filhos do cabeçalho */
+.header > div {
+  /* Flexbox para alinhar os elementos horizontalmente */
+  display: flex;
+  /* Espaçamento uniforme entre os elementos */
+  justify-content: space-between;
+  /* Alinhar os elementos verticalmente */
+  align-items: center;
+  /* Espaçamento interno */
+  padding: 20px;
+}

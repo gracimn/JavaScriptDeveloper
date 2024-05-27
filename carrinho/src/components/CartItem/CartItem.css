@@ -1,0 +1,65 @@
+/* Estilos para cada item no carrinho */
+.cart-item {
+  /* Flexbox para alinhar os itens verticalmente */
+  display: flex;
+  align-items: flex-start;
+  /* Borda na parte inferior para separar os itens */
+  border-bottom: 1px solid #ddd;
+  /* Espaçamento na parte inferior */
+  padding-bottom: 20px;
+  /* Margem na parte inferior */
+  margin-bottom: 20px;
+  /* Posição relativa para o botão de remover */
+  position: relative;
+}
+
+/* Estilos para a imagem do item no carrinho */
+.cart-item-image {
+  /* Largura da imagem */
+  width: 70px;
+}
+
+/* Estilos para o título do item no carrinho */
+.cart-item-title {
+  /* Tamanho da fonte */
+  font-size: 0.85rem;
+  /* Peso da fonte */
+  font-weight: 500;
+  /* Cor do texto */
+  color: rgba(0, 0, 0, 0.5);
+  /* Espaçamento na parte inferior */
+  margin-bottom: 8px;
+}
+
+/* Estilos para o preço do item no carrinho */
+.cart-item-price {
+  /* Tamanho da fonte */
+  font-size: 25px;
+  /* Peso da fonte */
+  font-weight: 500;
+}
+
+/* Estilos para o conteúdo do item no carrinho */
+.cart-item-content {
+  /* Espaçamento */
+  padding: 0 35px 0 10px;
+}
+
+/* Estilos para o botão de remover item do carrinho */
+.button__remove-item {
+  /* Posição absoluta */
+  position: absolute;
+  /* Alinhamento no topo e à direita */
+  top: 0;
+  right: 0;
+  /* Cor do texto */
+  color: #d83232;
+  /* Tamanho da fonte */
+  font-size: 1.4rem;
+  /* Remover borda */
+  border: none;
+  /* Remover plano de fundo */
+  background: none;
+  /* Cursor ao passar por cima */
+  cursor: pointer;
+}

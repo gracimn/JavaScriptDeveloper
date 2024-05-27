@@ -1,0 +1,26 @@
+/* Estilos para a classe de carregamento */
+.loading {
+  /* Tamanho da fonte */
+  font-size: 2rem;
+  /* Margem para centralizar verticalmente */
+  margin: 200px auto 0;
+  /* Animação de rotação */
+  animation: spin 1s linear infinite;
+  /* Largura total */
+  width: 100%;
+}
+
+/* Animação de rotação */
+@keyframes spin {
+  /* De */
+  from {
+    /* Transformação inicial (0 graus de rotação) */
+    transform: rotate(0deg);
+  }
+
+  /* Para */
+  to {
+    /* Transformação final (360 graus de rotação) */
+    transform: rotate(360deg);
+  }
+}
